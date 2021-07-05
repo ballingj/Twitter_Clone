@@ -1,0 +1,42 @@
+.chatterBox {
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--chatter-background);
+  padding-right: 10px;
+}
+
+.chatterBox > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.chatterBox__input {
+  padding: 20px;
+  display: flex;
+}
+
+.chatterBox__input > input {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+}
+
+.chatterBox__imageInput {
+  border: none;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.chatterBox__Button {
+  background-color: var(--chatter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: 80px;
+  height: 40px !important;
+  margin-top: 20px !important;
+  margin-left: auto !important;
+}
+
